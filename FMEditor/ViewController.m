@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XZPostMainViewController.h"
 
 @interface ViewController ()
 
@@ -17,11 +18,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeContactAdd];
+    
+    CGFloat btnW = 60.f;
+    
+    button.frame = CGRectMake((self.view.frame.size.width - btnW)/2, (self.view.frame.size.height - btnW)/2, btnW, btnW);
+    
+    [self.view addSubview:button];
+    
+    [button addTarget:self action:@selector(addButonClick) forControlEvents:UIControlEventTouchUpInside];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)addButonClick {
+    
+    XZPostMainViewController *viewC = [[XZPostMainViewController alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:viewC];
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 @end
