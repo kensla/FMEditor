@@ -594,6 +594,11 @@
     
 //    XZChioseViewController *chioseViewController = [[XZChioseViewController alloc]initChioseView:self.imageArray title:_titleView.text sizeArr:_layoutRA.allCellSizeArr];
 //    [self.navigationController pushViewController:chioseViewController animated:YES];
+    
+    NSLog(@"imageArr = %@",self.imageArray);
+    NSLog(@"sizeArr = %@",_layoutRA.allCellSizeArr);
+    [_tipsView showTipsView:@"成功了，查看打印结果吧"];
+    
 }
 #pragma mark 弹出键盘之后导航栏左右键点击
 - (void)whenKeyboardShowNavigationLeftRightClick {

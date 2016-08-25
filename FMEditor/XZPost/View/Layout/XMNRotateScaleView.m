@@ -222,7 +222,7 @@ CG_INLINE CGRect CGRectScale(CGRect rect, CGFloat wScale, CGFloat hScale)
         _rotateScaleView = [[UIView alloc] initWithFrame:CGRectMake((self.frame.size.width - kXMNRotateScaleAlhpWidth)/2, self.frame.size.height - kXMNRotateScaleAlhpWidth/2, kXMNRotateScaleAlhpWidth, kXMNRotateScaleAlhpWidth)];
         _rotateScaleView.userInteractionEnabled = YES;
         _rotateScaleView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleTopMargin;
-        _rotateScaleView.backgroundColor = [UIColor yellowColor];
+        _rotateScaleView.backgroundColor = [UIColor redColor];
         UIPanGestureRecognizer *panGes = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handleRotateScalePan:)];
         [_rotateScaleView addGestureRecognizer:panGes];
     }
