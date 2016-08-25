@@ -1,5 +1,6 @@
 # FMEditor
-##感谢艺术云图给了我灵感，感谢githubID为ra1028的RACollectionViewReorderableTripletLayout框架。<br>
+##感谢艺术云图给了我灵感，<br>
+##感谢githubID为ra1028的RACollectionViewReorderableTripletLayout框架。<br>
 但是时间有限，做得没有他强大。<br>
 大家可以理解为这是一个HTML编辑器。也可以理解为发布微信公众号的加强版。<br>
 
