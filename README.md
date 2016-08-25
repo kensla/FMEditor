@@ -8,12 +8,12 @@
 先上图
 ![](https://raw.githubusercontent.com/brainHaert/FMEditor/master/showgif.gif)
 
-###主要看XZPost文件夹里面的文件。
+###主要看`XZPost`文件夹里面的文件。
 
-####由于是从一个比较庞大的项目里面抽取出来的，依赖比较多，XZPost文件夹以外的几乎都是依赖的小文件。
+####由于是从一个比较庞大的项目里面抽取出来的，依赖比较多，`XZPost`文件夹以外的几乎都是依赖的小文件。
 那些小文件写得也没有很差的，有空大家也可以看看。
 
 #####有点复杂，看之前要有点心理准备，里面所有方法都有中文注释，几乎每一行都有注释。
 至于英文注释...只能说sorry啦，几乎没有。
 
-######友情提示：可以从XZPostMainViewController看起。
+######友情提示：可以从`XZPostMainViewController`看起。
